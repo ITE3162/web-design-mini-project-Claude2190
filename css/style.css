@@ -1,0 +1,163 @@
+:root{
+    --thierColor:#052A97;
+    --secondColor:#E5E5E5;
+    --firstColor:#FFFFFF;
+    --FouthColor:#121212;
+    --mainText:#FFFFFF;
+    --secondaryText:#121212;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    transition: 0.6s;
+}
+
+
+.s1-1{
+    background-color: var(--firstColor);
+}
+.s1{
+    background-color: var(--thierColor);
+
+}
+.s2{
+    background-color: var(--secondColor);
+
+}
+
+.s3{
+    background-color: var(--thierColor);
+
+}
+.s4{
+    background-color: var(--FouthColor);
+
+}
+
+.main-container{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.name-wrapper{
+
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.text-wrapper{
+    background-color: var(--thierColor);
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    text-align: center;
+    color: var(--mainText);
+    font-size: 34px;
+
+}
+
+.text-wrapper p{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.nav-wrapper{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    height: 70px;
+}
+
+.logo{
+    background-color: var(--FouthColor);
+    color: var(--mainText);
+    width: 30%;
+}
+
+.logo h3{
+    margin-left: 10%;
+}
+
+.nav{
+}
+
+.nav li{
+    display: inline-block;
+    padding:15px;
+}
+
+.nav li a{
+    font-size:15px;
+}
+
+.picture-wrapper{
+    grid-template-columns: 1fr;
+    display: grid;
+}
+
+.picture img{
+    width: 100%;
+    height: 400px;
+}
+
+.content-wrapper{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.left-wrapper{
+    width: 45%;
+
+
+}
+
+.right-wrapper{
+    width: 80%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.footer-content{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: var(--mainText);
+
+}
+
+.left-side{
+
+}
+
+.center-side{
+
+}
+
+.right-side{
+
+}
+
+.author-wrapper{
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-content: center;
+}
+
+.author-content{
+    width: 100%;
+    height: 50px;
+    color:var(--mainText);
+    text-align: center;
+    
+}
