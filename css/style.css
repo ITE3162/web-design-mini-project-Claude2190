@@ -4,7 +4,8 @@
     --firstColor:#FFFFFF;
     --FouthColor:#121212;
     --mainText:#FFFFFF;
-    --secondaryText:#121212;
+    --secondaryText:#242323;
+    --othercolor: #df1313;
 }
 
 html, body{
@@ -36,6 +37,10 @@ body *{
 .s4{
     background-color: var(--FouthColor);
 
+}
+.sv{
+    background-color: var(--othercolor);
+    margin-top: -1.5%;
 }
 
 .main-container{
@@ -80,6 +85,7 @@ body *{
     background-color: var(--FouthColor);
     color: var(--mainText);
     width: 30%;
+    height: 70px;
 }
 
 .logo h3{
@@ -95,7 +101,9 @@ body *{
 }
 
 .nav li a{
-    font-size:15px;
+    font-size:25px;
+    text-decoration: none;
+    color: black;
 }
 
 .picture-wrapper{
